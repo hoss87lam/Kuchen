@@ -11,4 +11,10 @@ public class Kuchen {
 	private String name;
 	private double preis;
 	private double gewicht;
+	
+	public Kuchen(String name, double preis, double gewicht) {
+		this.name = name;
+		this.preis = preis;
+		this.gewicht = gewicht;
+	}
 }
